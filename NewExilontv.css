@@ -90,3 +90,29 @@ span.contdown {
     margin: 10px auto;
     border-radius: 10px;
 }
+
+.scrollbar
+{
+	height: 230px;
+	width: 100%;	
+	overflow-y: scroll;	
+}
+
+.scrollbar2
+{
+	height: 110px;
+    width: 98%;
+    overflow-y: scroll;
+}
+.scrollbar3
+{
+    width: 100%;
+    overflow-y: scroll;
+}
+.scrollbar5
+{
+	
+	height: 530px;
+	width: 100%;	
+	overflow-y: auto;	
+}
