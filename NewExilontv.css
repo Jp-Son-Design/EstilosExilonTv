@@ -1,0 +1,92 @@
+/*Estilos del Anime del día */
+
+.contcard {
+    margin: 0 auto;
+    padding: 5px;
+    width: 100%;
+    color: #2b2d3a;
+    box-sizing: border-box;
+}
+.contcard h1 {
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    color: #393d41;
+    padding: 5px 7px;
+    text-transform: uppercase;
+}
+.contcard p {
+    padding: 0 9px 6px 9px;
+    line-height: 24px;
+  	color: #595b67;
+}
+.contimg {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sinop {
+    font-size: 14px;
+    text-align: justify;
+    padding: 13px 4px;
+    box-sizing: border-box;
+}
+.btndown {
+    background: #1c1b2212;
+    color: #2b2a33;
+    opacity: 0.8;
+    transition: all 0.25s ease;
+    text-shadow: 0 1px 3px rgb(0 0 0 / 30%), 0 1px 5px rgb(0 0 0 / 16%);
+    text-align: center;
+    padding: 6px 2px;
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.btndown:hover {
+    transform: translate(0, -2px);
+    opacity: 0.85;
+}
+.btndown a:link {
+    color: #323b2f;
+    font-size: 0.85rem;
+}
+.btndown a:visited {
+    color: #323b2f;
+}
+span.contdown {
+    padding: 0 5px 0 5px;
+}
+.coverimg {    
+	border: 4px solid #ffffff;
+    margin-top: 0.4em;
+    box-sizing: border-box;
+    width: 182px;
+    height: 268px;
+    border-radius: 9px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.35);
+    float: left;
+    margin-bottom: 2.0em;
+    margin-right: 1.0em;
+    margin-left: 0.4em;
+}
+.coverimg3 {    
+    box-sizing: border-box;
+    width: 182px;
+    height: 268px;
+    border-radius: 7px;
+    box-shadow: 0 1px 15px rgb(67, 69, 84);
+    float: left;
+    margin-bottom: 2.0em;
+    margin-right: 2.25em;
+    margin-left: 2.25em;
+    margin-top: -67px;
+    position: relative;
+    z-index: 10;
+}
+.coverimg4 {    
+    box-shadow: 0 3px 13px rgba(0,0,0,.5);
+    margin: 10px auto;
+    border-radius: 10px;
+}
