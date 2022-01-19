@@ -116,3 +116,59 @@ span.contdown {
 	width: 100%;	
 	overflow-y: auto;	
 }
+
+
+#style-4::-webkit-scrollbar-track
+{
+	background-color: #e4e4e4;
+}
+
+#style-4::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-4::-webkit-scrollbar-thumb
+{
+	background-color: #6a7b65;
+}
+#menupr {
+border: 0px solid #000000;
+list-style: none outside none;
+font-size: 15px;
+margin: 0;
+max-width: 96%;
+padding: 0;
+overflow:auto;
+position: relative;
+}
+#menupr li a {
+	text-align: left;
+    color: #393d41;
+    display: block;
+    font-size: 0.85rem;
+    line-height: 30px;
+    padding: 2px 2px;
+    overflow-x: hidden;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#menupr li a:hover {
+	padding-left: 10px;
+    opacity: 0.8;
+    color: #393d41;
+	
+	.force-overflow
+{
+	min-height: 750px;
+}
+.force-overflow2
+{
+	min-height: 100px;
+}
